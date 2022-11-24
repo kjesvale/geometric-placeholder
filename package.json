@@ -14,10 +14,7 @@
         "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
         "start": "remix-serve build",
         "start:mocks": "binode --require ./mocks -- @remix-run/serve:remix-serve build",
-        "test": "vitest",
-        "pretest:e2e:run": "npm run build",
         "typecheck": "tsc -b",
-        "validate": "run-p \"test -- --run\" lint typecheck test:e2e:run",
         "postinstall": "sh ./init.sh",
         "prepare": "husky install"
     },
