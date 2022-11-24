@@ -1,8 +1,12 @@
 # Geometric placeholder
 
-A Remix application for generating geometric placeholder images using [Primitive](https://github.com/hashbite/primitive).
+A Remix application for generating geometric placeholder images using [Primitive](https://github.com/fogleman/primitive).
 
 Forked from [sndrem/fagdag-stand-bekk-2022](https://github.com/sndrem/fagdag-stand-bekk-2022), created for a conference at [@bekk](https://github.com/bekk).
+
+## Screenshot
+
+![Screenshot](/screenshots/screenshot.png)
 
 ## Installation
 
