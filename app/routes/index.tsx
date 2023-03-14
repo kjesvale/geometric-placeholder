@@ -27,9 +27,6 @@ export default function Index() {
                 <Link to="/search" className="hovedknapp">
                     Bruk et fotografi
                 </Link>
-                <Link className="block" to="/om">
-                    Om løsningen
-                </Link>
             </div>
             {loaderData.length > 0 && (
                 <>

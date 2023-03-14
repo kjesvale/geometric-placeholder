@@ -8,14 +8,13 @@ import {
     ScrollRestoration,
 } from "@remix-run/react";
 
-import tailwindStylesheetUrl from "./styles/tailwind.css";
+//import tailwindStylesheetUrl from "./styles/tailwind.css";
 import appStylesheetUrl from "./styles/app.css";
 import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
 
 export const links: LinksFunction = () => {
     return [
-        { rel: "stylesheet", href: tailwindStylesheetUrl },
+        //{ rel: "stylesheet", href: tailwindStylesheetUrl },
         { rel: "stylesheet", href: appStylesheetUrl },
     ];
 };
@@ -44,7 +43,6 @@ export default function App() {
                         <LiveReload />
                     </main>
                 </div>
-                <Footer />
             </body>
         </html>
     );

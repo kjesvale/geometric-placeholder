@@ -23,7 +23,7 @@ export function Soketips() {
                 Usikker på hva du skal søke etter? Trykk på en av emojiene og se
                 hva som skjer...
             </p>
-            <div className="my-10 grid grid-cols-3 gap-5 text-5xl lg:grid-cols-12">
+            <div className="søketips">
                 {tips.map(({ emoji, query }) => {
                     return (
                         <Link key={query} to={`/search?query=${query}`}>

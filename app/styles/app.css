@@ -20,6 +20,10 @@ body {
     padding: 2rem;
 }
 
+a {
+    color: white;
+}
+
 h1,
 h2,
 h3,
@@ -94,10 +98,13 @@ footer a {
 
 .hovedknapp {
     display: inline-block;
+    text-decoration: none;
     font-size: 2rem;
     padding: 1rem 2rem;
     border-radius: 0.25rem;
     border: 2px solid white;
+    color: white;
+    background: none;
 }
 
 .hovedknapp:hover {
@@ -148,6 +155,17 @@ footer a {
     margin-bottom: 0.5rem;
 }
 
+.søketips {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    gap: 0.5rem;
+}
+
+.søketips a {
+    text-decoration: none;
+}
+
 .søk-wrapper {
     display: flex;
     margin-top: 5rem;
@@ -156,8 +174,10 @@ footer a {
 }
 
 .søk-wrapper input {
+    color: white;
     font-size: 2.5rem;
     background: none;
+    border: none;
     border-bottom: 2px solid white;
 }
 
@@ -171,6 +191,7 @@ footer a {
 }
 
 .geometrivelger {
+    border: none;
     display: flex;
     font-size: 2rem;
     align-items: center;
@@ -178,7 +199,10 @@ footer a {
 }
 
 .geometrivelger select {
+    color: white;
+    font-size: 2rem;
     background: none;
+    border: none;
     border-bottom: 2px solid white;
     appearance: none;
 }
@@ -236,6 +260,7 @@ footer a {
 }
 
 .tilbakelenke {
+    color: white;
     align-self: flex-start;
     text-align: left;
     text-decoration: underline;
@@ -250,6 +275,7 @@ footer a {
 }
 
 .lenke {
+    color: white;
     display: inline-block;
     padding: 1rem 0;
     text-decoration: underline;
